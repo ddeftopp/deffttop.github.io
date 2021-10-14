@@ -1,0 +1,116 @@
+body{
+	margin-top: 0;
+	margin-left: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400&family=Josefin+Sans:ital,wght@1,300&family=Lobster&display=swap');
+.block{
+	width: 1080px;
+	height: 2340px;
+	background-color: #B0C4DE;
+}
+.dia_mother{
+	position: relative;
+	top: 30px;
+	left: 20px;
+	display: flex;
+	width: 1000px;
+	height: 100px;
+	flex-direction: row;
+}
+.dia{
+	width: 50px;
+	height: 50px;
+	border-radius: 23%;
+	background-color: black;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	color: white;
+
+}
+.text_dia{
+	position: relative;
+	bottom: 7px;
+}
+.QR{
+	text-align: right;
+	margin-right: 20px;
+}
+.qr{
+	position: relative;
+	top: -63px;
+	width: 35px;
+	height: 35px;
+}
+.photo{
+	position: relative;
+	top: 30px;
+	left: -250px;
+	text-align: center;
+	border-radius: 20%;
+}
+.dia_photo1{
+	position: absolute;
+	border-radius: 2%;
+	transition: 1s;
+  	backface-visibility: hidden;
+  	width: 485px;
+  	height: 650px;
+}
+.dia_photo2{
+	position: absolute;
+	border-radius: 2%;
+	width: 485px;
+	height: 650px;
+	transition: 1s;
+  	backface-visibility: hidden;
+  	transform: rotateY(180deg);
+  	animation-play-state: 
+}
+.photo:active .dia_photo1 {
+  transform: rotateY(180deg);
+}
+.photo:active .dia_photo2 {
+  transform: rotateY(360deg);
+}
+.data{
+	position: relative;
+	top: 700px;
+	text-align: center;
+}
+.point{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 725px;
+	left: 470px;
+}
+.circle1{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: black;
+}
+.circle2, .circle3{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: grey;
+	margin-left: 5px;
+}
+ .circle4{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: grey;
+	margin-left: 5px;
+	margin-top: 1px;
+}
+.menu{
+	position: relative;
+	top: 770px;
+	text-align: center;
+}
+.menu_img{
+	width: 450px;
+	height: 40px;
+}
